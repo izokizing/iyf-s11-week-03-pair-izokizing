@@ -1,40 +1,62 @@
-# iyf-s11-week-03-pair-iz<DOCTYPE html>
-  <html lang="en">
-    <head>
-      <title>live yours</title>
-      <style>
-        img{
-            width: 300px;
-            border-radius: 20px;
-            margin-right: 20px;l
-        }
-      </style>
-    </head>
-    <body>
-      <h1>show no love</h1>
-      <p>a phrase often associated with staying strong and focused</p>
-      <!-- Heartbroken Image -->
-      <img src="broken-heart.jpg" alt="Broken Heart" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js practice</title>
+</head>
+<body>
+    <h1>check the console!</h1>
+    <script>
+        // Variable declarations
+let name = "Fredie";              // string
+let age = 22;                     // number
+let isStudent = true;             // boolean
+let favoriteColors = ["blue", "black", "white"]; // array
+let today = new Date();           // Date object
 
-      <br><br>
-      <!--show no love video-->
-      <p>a video of 50cent </p>
-      <video width="300" height="200" controls>
-        <source src="show-no-love.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+// Console logging with descriptive messages
+console.log("Name:", name);
+console.log("Age:", age);
+console.log("Is student:", isStudent);
+console.log("Favorite colors:", favoriteColors);
+console.log("Today's date:", today);
 
-      <h2>keypoint</h2>
-      <ul>
-        <li>Stay strong and focused</li>
-        <li>Don't let heartbreak define you</li>
-        <li>stay focused with your goals.</li>
-        <li>be mentally strong.</li>
-        <li>do not let negativity distract you.</li>
-      </ul>
+// typeof operator 
+console.log("Type of name:", typeof name);
+console.log("Type of age:", typeof age);
+console.log("Type of isStudent:", typeof isStudent);
+console.log("Type of favoriteColors:", typeof favoriteColors);
+console.log("Type of today:", typeof today);
 
-      <body>
-        <h3>Hello World</h3>
-      </body>
-    </body>
-  </html>okizing
+// let vs const 
+let score = 100;
+score = 150;  // Works fine
+
+const PI = 3.14159;
+// PI = 3;  // Error! const cannot be reassigned
+
+// number operations
+let a = 10;
+let b = 3;
+console.log("Addition:", a + b);
+console.log("Subtraction:", a - b);
+console.log("Multiplication:", a * b);
+console.log("Division:", a / b);
+console.log("Modulus:", a % b);
+
+// increment/decrement
+let count = 0;
+count++; // count is now 1
+count--; // count is now 0
+console.log("Final count:", count);
+
+// string operations
+let greeting = "fredie";
+let name2 = "njiru";
+console.log("Greeting:", greeting);
+console.log("Name:", name2);
+    </script>
+
+</body>
+</html>
