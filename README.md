@@ -1,62 +1,43 @@
-iyf-s11-week-03-pair<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>js practice</title>
+    <title>Box Model Practice</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Shared CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>check the console!</h1>
-    <script>
-        // Variable declarations
-let name = "Fredie";              // string
-let age = 22;                     // number
-let isStudent = true;             // boolean
-let favoriteColors = ["blue", "black", "white"]; // array
-let today = new Date();           // Date object
 
-// Console logging with descriptive messages
-console.log("Name:", name);
-console.log("Age:", age);
-console.log("Is student:", isStudent);
-console.log("Favorite colors:", favoriteColors);
-console.log("Today's date:", today);
+<h1>Box Model Practice</h1>
 
-// typeof operator 
-console.log("Type of name:", typeof name);
-console.log("Type of age:", typeof age);
-console.log("Type of isStudent:", typeof isStudent);
-console.log("Type of favoriteColors:", typeof favoriteColors);
-console.log("Type of today:", typeof today);
+<!-- Exercise 1: Box Model Visualization -->
+<section>
+    <h2>Exercise 1: Visualization</h2>
+    <div class="box content-box">Content</div>
+    <div class="box padding-box">Padding</div>
+    <div class="box border-box">Border</div>
+    <div class="box margin-box">Margin</div>
+</section>
 
-// let vs const 
-let score = 100;
-score = 150;  // Works fine
+<!-- Exercise 2: Debug the Layout -->
+<section>
+    <h2>Exercise 2: Debug Broken Box</h2>
+    <p>This box should be exactly 300px wide total:</p>
+    <div class="broken-box">Fixed Box</div>
+</section>
 
-const PI = 3.14159;
-// PI = 3;  // Error! const cannot be reassigned
-
-// number operations
-let a = 10;
-let b = 3;
-console.log("Addition:", a + b);
-console.log("Subtraction:", a - b);
-console.log("Multiplication:", a * b);
-console.log("Division:", a / b);
-console.log("Modulus:", a % b);
-
-// increment/decrement
-let count = 0;
-count++; // count is now 1
-count--; // count is now 0
-console.log("Final count:", count);
-
-// string operations
-let greeting = "fredie";
-let name2 = "njiru";
-console.log("Greeting:", greeting);
-console.log("Name:", name2);
-    </script>
+<!-- Exercise 3: Card Component -->
+<section>
+    <h2>Exercise 3: Card Component</h2>
+    <div class="card">
+        <img src="https://via.placeholder.com/300x150" alt="Card image">
+        <h2>Card Title</h2>
+        <p>This is a description of the card. It demonstrates padding, border, and margin.</p>
+        <button>Click Me</button>
+    </div>
+</section>
 
 </body>
 </html>
